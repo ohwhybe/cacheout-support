@@ -1,6 +1,6 @@
 # CacheOut — Privacy Policy
 
-**Last updated: 8 August 2026**
+**Last updated: 25 October 2026**
 
 ## The short version
 
@@ -25,6 +25,35 @@ your behalf, under your Apple Account, subject to
 If you are not signed in to iCloud, CacheOut works exactly the same, entirely offline. Nothing leaves
 the device at all.
 
+## Your scraps and the device's search index
+
+Since version 1.1, CacheOut adds your scraps to your **device's own search index**, so you can find a
+line from Spotlight without opening the app.
+
+This is worth stating plainly, because it is a change in where your writing appears rather than a
+change in who can read it:
+
+- The index lives **on your device**, the same as everything else. Nothing is sent anywhere, and the
+  developer still receives nothing.
+- But your scraps become visible in **system-wide search**. Anyone holding your unlocked phone can
+  find a line by searching for a word in it, without opening CacheOut.
+
+If that is not what you want, iOS lets you turn it off per app in **Settings → Apps → CacheOut →
+Siri & Search**, and the app keeps working exactly as before — its own search still finds everything.
+
+## Deleting something for good
+
+Striking a line through does not delete it. It leaves the pile, stays searchable, and can be brought
+back — that is the whole point of it.
+
+Version 1.1 adds a separate, deliberate **delete**, for the times that is not what you want: a
+password typed into the wrong app, something written in a moment you would rather not keep. It works
+on one line at a time and asks you to confirm.
+
+Deleting removes the line, the original recording, drawing or photograph stored with it, and its entry
+in the device's search index. It cannot be undone, and if you use iCloud the deletion syncs to your
+other devices like any other change.
+
 ## What CacheOut sends to the developer
 
 Nothing.
@@ -47,7 +76,9 @@ them leaves the rest of the app fully usable.
 ## Artificial intelligence
 
 CacheOut's suggestions — what kind of thing a line might be, what topics it mentions — are produced
-**on your device**, using Apple's on-device models. Your text is not sent to the developer, to OpenAI,
+**on your device**, using Apple's on-device models. Since version 1.1, the same on-device model also
+reads photographs you scan, to turn a page of text into the single line that goes into your pile; the
+photograph itself is kept with the scrap so you can always check what it actually said. Your text is not sent to the developer, to OpenAI,
 or to any other service for processing. On devices without the necessary hardware the app falls back to
 a small set of rules that also runs locally, and if neither is available it simply makes no
 suggestions.
@@ -66,4 +97,3 @@ app collects nothing, any change is likely to be a clarification rather than a c
 
 Questions, problems, or anything else:
 **https://github.com/ohwhybe/cacheout-support/issues**
-

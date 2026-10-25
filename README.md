@@ -43,9 +43,28 @@ just stays on the one device.
 **Does it work offline?**
 Yes. Capture never waits for a network. Anything you write offline syncs when you're back on.
 
-**Where did my completed items go?**
-Into the Archive, grouped by the day you struck them — the toolbar icon at the top right. Nothing is
-ever deleted, and one tap brings anything back.
+**Where did my completed items go?** *(changed in 1.1)*
+They left the pile, which is what striking is for — but they are still there. Three ways back:
+
+- **Pull down** at the top of the list. Anything struck in the last day is sitting there, one tap from
+  returning.
+- **Search** — the magnifying glass at the top right. Type a word from the line, however long ago you
+  wrote it.
+- **Spotlight.** Your scraps are in your phone's own search, so you can find one without opening
+  CacheOut at all.
+
+**Version 1.0 had an Archive screen listing everything you had ever finished, and 1.1 removed it.**
+That was deliberate: a wall of done things is its own kind of nagging, and it rather undid the point
+of striking them off. Nothing was deleted in the process — every line you ever struck is still there
+and still findable.
+
+**Can I delete something permanently?** *(new in 1.1)*
+Yes — one line at a time, with a confirmation. It is there for the times striking is not enough: a
+password typed into the wrong app, something you would rather not keep. It removes the line, the
+recording or photo stored with it, and its entry in your phone's search index, and it cannot be
+undone.
+
+Everything else still just goes quiet rather than away.
 
 **Something I never finished disappeared.**
 It didn't. Anything you capture and don't strike comes back on its own after a week, in a section near
@@ -59,4 +78,3 @@ it forever with nothing degrading.
 On-device intelligence needs recent hardware. Without it the app uses a simpler local rule set, and if
 that has no opinion it stays quiet. Everything else works identically — classification is optional
 everywhere in the app.
-
